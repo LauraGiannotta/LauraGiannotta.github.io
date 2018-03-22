@@ -1,0 +1,465 @@
+html {
+	font-size: 1em;
+	font-family: 'Open Sans', sans-serif;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+#fixed {
+	position: fixed;
+	width: 100%;
+	margin-top: -0.5em;
+	margin-bottom: 0em;
+	margin-left: -0.5em;
+	padding-left: 0.7em;
+	top: 0em;
+	box-shadow: 0px 0px 6px 0px #777777;
+	z-index: 3;
+	background-color: rgba(235, 235, 235, 0.9);
+}
+
+h1 {
+	text-align:right;
+	padding-right:1.5em;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.7em;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+a {
+	color:rgb(139, 35, 35);
+	text-decoration:none;
+}
+
+#menufixed {
+	position: fixed;
+	width: 5em;
+	margin-top: 1em;
+	margin-bottom: 0em;
+	/*margin-left: -0.5em;*/
+	padding-left: 0.7em;
+	top: 0em;
+	z-index: 3;	
+}
+
+
+
+header {
+	clear: left;
+	margin-top: 5em;
+}
+
+.dropdown {
+	z-index: 2;
+	display: inline-block;
+	position: relative;
+	/*Ändern*/
+}
+
+.menuIcon {
+	width: 2.5em; /*ABPASSEN*/
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	min-width: 5em;
+	z-index: 1;
+}
+
+.dropdown-content a {
+	padding: 0.5em;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	width: 4em;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown-content img {
+	height: 2em;
+	display: block;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+#hintergrund {
+	background-image: url("Pics/NAPA1.jpg");
+	background-size: cover;
+	background-position: center; /*bei Desktop RAUS!*/
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 45em;
+}
+
+#head {
+	top: 5em;
+}
+
+#mitte {
+	font-size: 3.5em;
+	text-align: center;
+	margin-top: -9em; /*Anpassen*/
+	margin-bottom:6em;
+	/*font-weight: bold;*/
+	line-height: 1.5em;
+	color: #363636;
+	background-color: rgba(255, 255, 255, 0.7);
+	font-family: 'Quicksand', sans-serif;
+}
+
+h2 {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 2em; /*Anpassen?*/
+	text-align: center;
+	color: rgb(139, 35, 35);
+}
+
+h3 {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 2em;
+	color: rgb(139, 35, 35);
+}
+
+h4 {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.5em; /*Anpassen?*/
+	text-align: center;
+}
+
+#Kontakt{
+	font-family: 'Quicksand', sans-serif;
+}
+
+#uberMich {
+	font-size: 0.6em;
+	display: block;
+	position: relative;
+	top: -6em;
+	visibility: hidden;
+}
+
+#meineArbeiten {
+	font-size: 0.6em;
+	display: block;
+	position: relative;
+	top: -6em;
+	/* hier die tatsächliche Höhe des fixierten Elements angeben  */
+	visibility: hidden;
+}
+
+
+
+.ich img {
+	max-width: 80%;
+	padding: 1em;
+	padding-top: 0.5em; /*Ändern*/
+}
+
+.ich {
+	text-align:center;
+}
+
+.text {
+	display: block;
+	margin-bottom: 1.5em;
+}
+
+.arbeiten {
+	clear: left;
+}
+
+.arbeiten h3 {
+	padding-top: 1em;
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+}
+
+#hintergrund1 {
+	background-image: url("Pics/block.jpg");
+	background-size: cover;
+	background-position: center; /*bei Desktop RAUS!*/
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.inhalt1 {
+	text-align: center;
+	width: 100%;
+	margin: 1%;
+}
+
+
+.inhalt1 img {
+	width: 90%;
+	margin: 2%;
+}
+
+.inhalt2 {
+	text-align: center;
+	width: 100%;
+	margin: 1%;
+}
+
+
+.inhalt2 img {
+	width: 90%;
+	margin: 2%;
+}
+
+
+footer {
+	width: 108%;
+	margin-bottom: -1em;
+	margin-left: -1.1em;
+	text-align: center;
+	box-shadow: 0px 0px 6px 0px #777777;
+	background-color: rgba(235, 235, 235, 0.9);
+}
+
+footer h4 {
+	padding-top: 1em;
+}
+
+#Kontakt {
+	color: rgb(139, 35, 35);
+	font-size: 2em;
+}
+
+#hfu {
+	width: 25%;
+	height: auto;
+	padding-bottom: 1em;
+}
+
+
+
+button {
+	margin:1.5em;
+	padding:0.5em;
+	background-color: rgba(139, 35, 35, 0.3);
+    border: none;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    width: 30%;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+#text {
+	display: none;
+}
+#Lebenslauf p{
+	marign:1em;
+	display: none;
+}
+#Notenspiegel {
+	margin: 1em;
+	display: none;
+}
+.LEER {
+	display: none;
+}
+/*2-Spaltig*/
+@media screen and (min-width: 35.5em) {
+#fixed {
+	margin-left: -1em;
+	padding-left: 1em;
+}
+.menuIcon {
+	width: 3em;
+}
+
+
+h1 {
+
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 2.5em; /*Anpassen?*/
+}
+.arbeiten h3 {
+	padding-top: 2em;
+	font-size: 2.3em;
+}
+h4 {
+	font-size: 1.5em;
+}
+.ich img {
+	width:40%;
+	padding-left: 1em;
+	margin-bottom: 3em;
+	margin-top: 0em;
+}
+.text {
+	margin-top: 2%;
+	width: 50%;
+	padding-left: 1.5em;
+	font-size: 1em;
+}
+.inhalt1 {
+	width: 45%;
+	float: left;
+}
+.inhalt1 img {
+	width: 100%
+}
+
+.inhalt2 {
+	width: 45%;
+	float: left;
+}
+.inhalt2 img {
+	width: 100%
+}
+
+.arbeiten {
+	float: left;
+}
+
+
+footer {
+	clear: left;
+}
+#Kontakt {
+	font-size: 2em;
+}
+#hfu {
+	width: 22%;
+}
+}
+
+/*3-Spaltig*/
+@media screen and (min-width: 48em) {
+
+	#hh {
+clear: left;
+	}
+	
+.menuIcon {
+	width: 3em;
+}
+
+
+h1 {
+
+	font-size: 2.2em;
+}	
+	
+h2 {
+	font-size: 3em; /*Anpassen?*/
+}
+.arbeiten h3 {
+	padding-top: 2em;
+	font-size: 3em;
+}
+h4 {
+
+	font-size: 2em;
+}
+.ich img {
+	width: 30%;
+	padding-left: 0.5em;
+}
+.text {
+	width: 40%;
+	padding-left: 1.5em;
+	font-size: 1.5em;
+}
+.arbeiten {
+	text-align: center;
+}
+.inhalt1 {
+	width: 30%;
+}
+.inhalt1 img {
+	width: 100%
+}
+
+.inhalt2 {
+	width: 30%;
+	float: left;
+}
+.inhalt2 img {
+	width: 100%
+}
+
+#Kontakt {
+	font-size: 2.3em;
+}
+#hfu {
+	width: 12%;
+}
+}
+
+/*4-Spaltig*/
+@media screen and (min-width: 64em) {
+h2 {
+	font-size: 2em; /*Anpassen?*/
+}
+.arbeiten h3 {
+	font-size: 2.5em;
+}
+
+h4 {
+	
+	font-size: 1.5em;
+}
+.ich img {
+	width:20%;
+	padding-left: 2em;
+	max-width: 70%;
+}
+.text {
+	padding-left: 1.5em;
+	font-size: 1.2em;
+	line-height:1.5em;
+}
+
+.ich {
+	margin-left:1em;
+	margin-right:1em;
+}
+
+.arbeiten {
+	text-align: center;
+}
+.inhalt1 {
+	width: 45%;
+	height:auto;
+	}
+.inhalt1 img {
+	width: 100%;
+}
+
+.inhalt2 {
+	width: 20%;
+	float: left;
+}
+.inhalt2 img {
+	width: 100%
+}
+
+#Kontakt {
+	font-size: 2.3em;
+	margin-bottom:0em;
+}
+#hfu {
+	width: 12%;
+}
+.ich {
+	clear: left;
+	line-height:1.5em;
+}
+}
+
